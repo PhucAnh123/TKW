@@ -1,0 +1,503 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: none;  
+}
+body{
+    background-color: rgb(251, 251, 207);
+    margin: 0px auto;
+    line-height: 1.6em;
+    width: 90%;
+    font-size: 15px;
+    max-width: 1400px;
+    min-width: 1000px;
+    font-family: Verdana, Geneva, sans-serif;
+    border-top: 10px groove rgb(227, 130, 82) ;
+    padding: 10px;
+}
+.news_des_title a{
+    font-size: 40px;
+    text-decoration: none;
+}
+header h1 img{
+    margin: 0px auto;
+    width: 65%;
+    display: block;
+    border-radius: 15px;
+    border: 7px ridge rgb(71, 158, 0);
+
+}
+nav.rightcheck {
+    display: flex;
+    height: 10vh;
+    justify-content: center;
+ }
+ 
+ nav.rightcheck ul {
+    height: 25px;
+    padding: 10px;
+ }
+ 
+ nav.rightcheck ul li {
+     padding: 5px;
+    float: left; 
+    margin: 0px 3px; 
+    width: 90px; 
+    border: 2px solid rgb(44, 34, 34);
+    line-height: 20px;
+    height: 30px; 
+    text-align: center; 
+    background-color: rgb(233, 175, 98);
+    list-style-type: none;
+ }
+ 
+ nav.rightcheck ul li a {
+    display: block; 
+    font-weight: bold;
+    width: 80px; 
+    font-size: 10px; 
+    text-decoration: none; 
+    border: 2px solid rgb(40, 5, 97);
+    border-radius: 10px;
+    color: rgb(61, 8, 8);
+ }
+ nav.rightcheck ul li a:hover {
+     color: sandybrown;
+ }
+ 
+ nav.rightcheck ul li:hover {
+    background-color: bisque;
+ }
+#dulich img{
+    margin: 0px auto;
+    display: block;
+    width: 40%;
+}
+#vuichoi img{
+    margin: 0px auto;
+    display: block;
+    width: 40%;
+}
+section h1{
+    padding: 10px;
+     font-family: monospace;
+     font-size: 43px;
+     color: rgb(3, 124, 55);
+     text-align: center;
+}
+#duaxe{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 20px;
+    color: rgb(7, 56, 148);
+}
+section p img{
+    padding: 20px;
+    background-size: 20em;
+    width: 400px;
+    height: 250px;
+    border-radius: 40px;
+}
+section p{
+    font-size: 15px;
+    color: rgb(99, 91, 58);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#suoitien{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 20px;
+    color: rgb(7, 56, 148);
+}
+#thebcr{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 20px;
+    color: rgb(7, 56, 148);
+}
+#damsen{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 20px;
+    color: rgb(7, 56, 148);
+}
+#diadiemdulich{
+    border-top: 1px solid rgb(3, 114, 51);
+}
+#diadiemdichoi{
+    border-top: 3px solid rgb(2, 80, 36);
+}
+#monannoitieng{
+    border-top: 3px solid rgb(2, 80, 36);
+}
+
+
+
+
+#monan img{
+    margin: 0px auto;
+    display: block;
+    width: 670px;
+    height: 290px;
+}
+
+
+ #main h2{
+     padding: 60px;
+     font-family: monospace;
+     font-size: 50px;
+     color: red;
+     text-align: center;
+     border-bottom: 5px solid rgb(15, 8, 8);
+ }
+ #main h3{
+    padding: 60px;
+    font-family: monospace;
+    font-size: 40px;
+    color: red;
+    text-align: center;
+ }
+#main p img{
+    padding: 20px;
+    background-size: 20em;
+    width: 450px;
+    height: 250px;
+    border-radius: 40px;
+}
+#main p{
+    color: rgb(155, 16, 6);
+    font-size: 17px;
+    font-family: serif;
+}
+#main p trong{
+    color: rgb(75, 71, 71);
+    font-weight: bold;
+    font-size: 25px;
+    font-style: italic;
+    border-left: 4px solid rgb(212, 32, 32);
+}
+p#go{
+    border-bottom: 3px solid rgb(160, 0, 0);
+}
+#leftcheck h1{
+    padding: 30px;
+     font-family: monospace;
+     font-size: 45px;
+     color: rgb(30, 0, 112);
+     text-align: center;
+}
+#buivien{
+    padding: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: rgb(127, 136, 1);
+}
+#nguyenhue{
+    padding: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: rgb(127, 136, 1);
+}
+#anhsao{
+    padding: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: rgb(127, 136, 1);
+}
+#suoitien{
+    padding: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: rgb(127, 136, 1);
+
+}
+#damsen{
+    padding: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: rgb(127, 136, 1);
+
+}
+#camvien{
+    padding: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: rgb(127, 136, 1);
+
+}
+#binhquoi{
+    padding: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: rgb(127, 136, 1);
+
+}
+#hongkong{
+    padding: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: rgb(127, 136, 1);
+
+}
+#diadiemnoibat{
+     border-top: 3px solid rgb(2, 80, 36);
+}
+
+
+h2#ducba{
+    padding: 30px;
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    color: red;
+}
+h2#bennharong{
+    padding: 30px;
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    color: red;
+}
+h2#dinhdoclap{
+    padding: 30px;
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    color: red;
+}
+h2#chobenthanh{
+    padding: 30px;
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    color: red;
+}
+h2#photay{
+    padding: 30px;
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    color: red;
+}
+#leftcheck p img{
+    border-radius: 45px;
+    padding: 25px;
+    width: 400px;
+    height: 200px;
+}
+#leftcheck p{
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+}
+p#hi{
+    border-bottom: 3px solid rgb(160, 0, 0);
+}
+#horizontal h1{
+    padding: 30px;
+     font-family: monospace;
+     font-size: 55px;
+     color: sienna;
+     text-align: center;
+}
+h2#banhmi{
+    font-style: italic;
+    padding: 70px;
+    font-size: 25px;
+    color: rgb(172, 141, 5);
+}
+h2#xoi{
+    font-style: italic;
+    padding: 70px;
+    font-size: 25px;
+    color: rgb(172, 141, 5);
+}
+h2#kem{
+    font-style: italic;
+    padding: 70px;
+    font-size: 25px;
+    color: rgb(172, 141, 5);
+}
+#comtam {
+    padding: 60px;
+    font-family: monospace;
+    font-size: 30px;
+    color: red;
+}
+
+#horizontal h2 img{
+    padding: 10px;
+    padding-bottom: 0px;
+    display: block;
+    width: 370px;
+    height: 210px;
+    float: right;
+    border: 5px ridge rgb(100, 136, 134);
+    border-radius: 20px;
+}
+#horizontal p{
+    color: rgb(77, 80, 80);
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+}
+p#hello{
+    padding-top: 80px;
+    border-bottom: 1px solid rgb(104, 97, 0);
+}
+#mantal h1{
+    padding: 30px;
+     font-family: cursive;
+     font-size: 55px;
+     color: rgb(236, 154, 31);
+     text-align: center;
+}
+.tieude{
+    padding: 10px;
+    color: red;
+    border-left: 5px solid teal;
+    font-size: 19px;
+    font-weight: bold;
+    font-family: arial;
+    font-style: italic;
+}
+
+.tetamlich{
+    margin-top: 10px;
+}
+#tetnguyendan{
+    padding: 15px;
+    font-size: 33px;
+    background-color: rgb(46, 230, 168);
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(29, 13, 122);
+    text-align: center;
+}
+#tetamlich{
+    text-indent: 80px;
+}
+#tet{
+    font-size: 23px;
+    font-style: italic;
+    color: rgb(221, 42, 10);
+}
+
+
+h2#anhsang{
+    font-style: italic;
+    padding: 70px;
+    font-size: 25px;
+    color: rgb(172, 141, 5);
+}
+h2#tetnguyentieu{
+    font-style: italic;
+    padding: 70px;
+    font-size: 25px;
+    color: rgb(172, 141, 5);
+}
+h2#duonghoa{
+    font-style: italic;
+    padding: 70px;
+    font-size: 25px;
+    color: rgb(172, 141, 5);
+}
+p#video{
+    border-radius: 20px;
+    border: 3px solid rgb(113, 173, 1);
+    background-color: rgb(84, 210, 149); 
+   display: block;
+   margin: 0px auto;
+   text-align: center;
+   width: 50%;
+}
+#video object h3{
+    text-align: center;
+    font-size: 40px;
+    padding-bottom: 30px;
+    color: rgb(103, 101, 66);
+}
+
+#mantal p{
+    padding: 15px;
+    font-weight: bold;
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(69, 34, 21);
+}
+p#ok{
+    border-bottom: 3px solid rgb(104, 97, 0);
+}
+#noibat img{
+    width: 65%;
+    height: 290px;
+
+}
+
+ul{
+    list-style: none;
+}
+.menutongthe{
+    display: flex;
+    justify-content: center;
+}
+.menutongthe a{
+    text-decoration: none;
+    color: #fff;
+}
+.menutongthe ul{
+    position: absolute;
+    top: 42px;
+    left: 0;
+    display: none;
+}
+.menutongthe li{
+    float: left;
+    width: 130px;
+    line-height: 2em;
+    position: relative;
+    text-align: center;
+    background: teal;
+    padding: 10px;
+}
+.menutongthe li:hover{
+    background: green;
+    cursor: pointer;
+}
+#nhom{
+    padding-top: 300px;
+    text-align: center;
+    letter-spacing: 2px;
+}
+#nhom h2{
+    font-size: 25px;
+    padding: 5px;
+    font-style: italic;
+    color: rgb(0, 10, 143);
+}
+#nhom p{
+    font-size: 16px;
+    padding: 7px;
+}
+#lienhe{
+    
+    border-top: 1px solid rgb(2, 80, 36);
+}
+
+footer address{
+    color: rgba(255,255,255,0.8);
+    color: rgb(61, 57, 43);
+    font-style: italic;
+    font-weight: bold;
+    font-size: 1em;
+    line-height: 3em;
+    font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
+    font-variant: small-caps;
+    text-align: center;
+    text-transform: uppercase;
+    border-top: 3px solid rgb(76, 65, 49);
+    border-bottom: 3px solid rgb(76, 65, 49);
+    letter-spacing: 3px;
+ }
+ 
+
